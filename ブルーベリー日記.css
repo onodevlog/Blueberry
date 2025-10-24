@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Yu Gothic', sans-serif;
+  background-color: #f0f8f5;
+  color: #2e4d2c;
+}
+
+header {
+  background-image: url('images/farm-background.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-left: 6px solid #6cae75;
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+.photos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.log ul {
+  list-style: none;
+  padding: 0;
+}
+
+.log li {
+  background-color: #e6f2ea;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 4px solid #6cae75;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #dbeed8;
+  font-size: 0.9em;
+}
